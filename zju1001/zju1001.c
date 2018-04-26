@@ -3,8 +3,11 @@
 int main(void)
 {
     int a,b,c;
-    scanf("%d %d",&a,&b);
+    while(scanf("%d %d",&a,&b)==2)
+    {
     c=a+b;
-    printf("%d",c);
+    printf("%d\n",c);
+    
+    }
     return 0;
 }
